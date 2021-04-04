@@ -2,6 +2,6 @@
     <menu>
         <add id="Hoang_Banner::banner_manager" title="Banner Manager" module="Hoang_Banner" action="banner" resource="Hoang_Banner::banner_manager"/>
         <add id="Hoang_Banner::list_banner" title="List Banners" module="Hoang_Banner" action="banner" resource="Hoang_Banner::banner_manager" parent="Hoang_Banner::banner_manager"/>
-       <!--  <add id="Hoang_Banner::new_banner" title="New Banner" module="Hoang_Banner" action="banner/index/new" resource="Hoang_Banner::save" parent="Hoang_Banner::banner_manager"/> -->
+        <add id="Hoang_Banner::new_banner" title="New Banner" module="Hoang_Banner" action="banner/index/new" resource="Hoang_Banner::save" parent="Hoang_Banner::banner_manager"/>
     </menu>
 </config>

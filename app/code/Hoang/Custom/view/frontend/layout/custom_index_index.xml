@@ -1,0 +1,12 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd" layout="1column">
+    <head>
+    <title>Dự báo thời tiết</title>
+    <css src="Hoang_Custom::css/style.css"/>
+
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Hoang\Custom\Block\Helloworld" name="hoang_custom" template="helloworld.phtml" />
+        </referenceContainer>
+    </body>
+</page>
